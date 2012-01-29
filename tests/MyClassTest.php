@@ -7,7 +7,6 @@ class MyClassTest extends PHPUnit_Framework_TestCase {
     public function testDemo() {
         $x = new MyClass();
         $this->assertEquals(1, $x->demo(1));
-        $this->assertTrue(0, $x->demo(0));
-        $this->assertFalse(3, $x->demo(1));
+        $this->assertEquals(0, $x->demo(0));
     }
 }
