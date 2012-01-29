@@ -54,13 +54,13 @@
   </apply>
  </target>
 
- <target name="phploc" description="Measure project size using PHPLOC">
+<!-- <target name="phploc" description="Measure project size using PHPLOC">
   <exec executable="phploc">
    <arg value="--log-csv" />
    <arg value="${basedir}/build/logs/phploc.csv" />
    <arg path="${basedir}/src" />
   </exec>
- </target>
+ </target> -->
 
  <target name="pdepend"
          description="Calculate software metrics using PHP_Depend">
